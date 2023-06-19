@@ -25,3 +25,15 @@ message GetAccommodationRequest{
 message GetAccommodationResponse{
 	Accommodation accommodation = 1;
 }
+
+message Address {
+  string id = 1;
+  string country = 2;
+  string city = 3;
+  string streetAddress = 4;
+}
+
+enum PaymentOption {
+  PER_PERSON = 0;
+  PER_UNIT = 1;
+}

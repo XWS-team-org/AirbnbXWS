@@ -5,7 +5,7 @@ import { AuthenticationService } from 'src/app/services/authentication-service';
 
 
 @Component({
-  selector: 'app-main-toolbar',
+  selector: 'main-toolbar',
   templateUrl: './main-toolbar.component.html',
   styleUrls: ['./main-toolbar.component.css']
 })
